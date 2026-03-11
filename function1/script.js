@@ -1,3 +1,3 @@
 function sayHello(name, age){
-    document.write(name+"is"+age+"years old");
+    document.write(name+" is "+age+" years old ");
 }
