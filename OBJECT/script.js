@@ -15,4 +15,4 @@ person2.isMarried = false;
 person2.address = {}
 person2.address.street = "Gandhi Nagar";
 person2.address.flatNO = 101;
-console.log(person2);
+console.log(person2); 
