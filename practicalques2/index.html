@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Employee Management System</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>Employee Management System</h1>
+
+    <div class="form-container">
+        <input type="text" id="empName" placeholder="Employee Name">
+        <input type="text" id="empID" placeholder="Employee ID">
+        <input type="number" id="empSalary" placeholder="Salary">
+        <input type="text" id="empDept" placeholder="Department">
+        <button id="addEmployee">Add Employee</button>
+    </div>
+
+    <div class="button-container">
+        <button id="displayAll">Display All Employees</button>
+        <button id="filterSalary">Filter Salary > 50,000</button>
+        <button id="totalSalary">Total Salary Payout</button>
+        <button id="avgSalary">Average Salary</button>
+        <button id="countDept">Count Employees by Department</button>
+    </div>
+
+    <div id="output"></div>
+
     <script src="script.js"></script>
 </body>
 </html>
